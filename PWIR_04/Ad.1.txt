@@ -1,0 +1,8 @@
+Jeśli nie będziemy ostrożni podczas tworzenia równoległych pętli for, 
+możemy wprowadzić data race.
+
+Data race polega na tym, że wiele wątków mogłoby próbować zaktualizować wspólną zmienną 
+w tym samym czasie.
+
+Dlatego OpenMP ma specjalną klauzulę redukcji, 
+która może wyrażać redukcję pętli for.
