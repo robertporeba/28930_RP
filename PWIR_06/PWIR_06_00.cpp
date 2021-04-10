@@ -75,12 +75,12 @@ int main(){
         #pragma omp section
         {
             somethingLong2(&result13);
-            printf("Sec result2=%llu -> watek %d\n", result13,omp_get_thread_num());
+            printf("Sec result3=%llu -> watek %d\n", result13,omp_get_thread_num());
         }
         #pragma omp section
         {
             somethingLong2(&result14);
-            printf("Sec result2=%llu -> watek %d\n", result14,omp_get_thread_num());
+            printf("Sec result4=%llu -> watek %d\n", result14,omp_get_thread_num());
         }
     }
 
