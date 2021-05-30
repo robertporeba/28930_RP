@@ -1,1 +1,1 @@
-# PWIR
+# PWIR - Studia
